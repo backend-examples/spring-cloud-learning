@@ -16,6 +16,8 @@ spring:
         file-extension: properties
         # 命名空间ID
         namespace: e08e898c-1d86-422e-9120-ff19cf5c78f5
+        # 指定分组
+        group: Goods_Group
 management:
   endpoints:
     web:
