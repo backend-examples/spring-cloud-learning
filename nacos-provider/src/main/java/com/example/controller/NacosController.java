@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/nacos")
 public class NacosController {
 
-    @GetMapping("/test")
+    @GetMapping(value = "/test")
     public String test(){
         return "成功访问服务者接口111";
     }

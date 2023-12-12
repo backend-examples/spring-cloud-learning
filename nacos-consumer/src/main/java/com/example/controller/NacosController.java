@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 @RestController
-@RequestMapping("/nacos")
+@RequestMapping("/consumer")
 public class NacosController {
 
     @Autowired

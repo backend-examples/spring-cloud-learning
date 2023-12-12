@@ -1,5 +1,6 @@
 server:
   port: 9002
+
 spring:
   application:
     name: nacos-consumer
@@ -7,13 +8,13 @@ spring:
     nacos:
       discovery:
         # nacos的服务地址
-        server-addr: 127.0.0.1:8848
+        server-addr: 192.168.159.1:8848
 management:
   endpoints:
     web:
       exposure:
         ## yml文件中存在特殊字符，必须用单引号包含，否则启动报错
         include: '*'
-# 调用的微服务名称，这里指服务提供者
+# 调用的微服务名称，这里指服务提供者，nacos服务列表里注册的服务名
 service-url:
   nacos-provider: nacos-provider

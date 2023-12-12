@@ -8,7 +8,7 @@ spring:
     nacos:
       config:
         # nacos的地址，作为配置中心
-        server-addr: 192.168.3.51:8848
+        server-addr: 127.0.0.1:8848
         ## 共享配置，List集合，可以配置多个
         shared-configs:
           ## dataId：配置文件的dataId，必须带有后缀

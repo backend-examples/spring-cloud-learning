@@ -3,69 +3,131 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.example</groupId>
-	<artifactId>cloud-nacos</artifactId>
+	<artifactId>spring-cloud-learning</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>cloud-nacos</name>
+	<name>spring-cloud-learning</name>
 	<modules>
 		<module>nacos-provider</module>
 		<module>nacos-consumer</module>
 		<module>nacos-config</module>
 		<module>nacos-config-share</module>
-	</modules>
+		<module>spring-cloud-gateway</module>
+        <module>gateway-dynamic-by-nacos</module>
+    </modules>
 
 	<properties>
-		<spring.boot.version>2.6.11</spring.boot.version>
-		<spring.cloud.version>2021.0.4</spring.cloud.version>
-		<spring.cloud.alibaba.version>2021.0.4.0</spring.cloud.alibaba.version>
+		<java.version>1.8</java.version>
+		<lombok.version>1.18.26</lombok.version>
+		<log4j.version>1.2.17</log4j.version>
+		<fastjson2.version>2.0.14</fastjson2.version>
+		<fastjson.version>1.2.49</fastjson.version>
+		<hutool-all.version>5.7.13</hutool-all.version>
+		<commons-lang3.version>3.12.0</commons-lang3.version>
+		<jjwt.version>0.9.0</jjwt.version>
+		<nimbus-jose-jwt.version>9.23</nimbus-jose-jwt.version>
+		<tencentcloud-sdk-java.version>3.1.270</tencentcloud-sdk-java.version>
+		<spring-boot.version>2.6.12</spring-boot.version>
+		<spring-boot-maven-plugin.version>2.7.3</spring-boot-maven-plugin.version>
+		<spring-cloud-oauth2.version>2.2.5.RELEASE</spring-cloud-oauth2.version>
+		<mybatis-spring-boot.version>2.2.2</mybatis-spring-boot.version>
+		<pagehelper-spring-boot.version>1.3.0</pagehelper-spring-boot.version>
+		<spring-boot-test.version>2.6.12</spring-boot-test.version>
+		<spring-boot-security.version>2.6.12</spring-boot-security.version>
+		<spring-cloud-alibaba.version>2021.0.4.0</spring-cloud-alibaba.version>
+		<alibaba.nacos.version>1.4.2</alibaba.nacos.version>
+		<spring-cloud.version>2021.0.4</spring-cloud.version>
+		<!-- 覆盖SpringBoot中okhttp3的旧版本声明，解决MinIO 8.3.x的依赖冲突 -->
+		<okhttp3.version>4.8.1</okhttp3.version>
+		<!-- spring-boot原本的okhttp版本 -->
+		<okhttp.version>3.14.9</okhttp.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.squareup.okhttp3</groupId>
+			<artifactId>okhttp</artifactId>
+			<version>${okhttp3.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>${fastjson.version}</version>
+		</dependency>
+
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
+			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
 
 		<dependency>
-			<groupId>com.alibaba.cloud</groupId>
-			<artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+			<groupId>cn.hutool</groupId>
+			<artifactId>hutool-all</artifactId>
+			<version>${hutool-all.version}</version>
 		</dependency>
 
-		<!-- bootstrap 文件生效 -->
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-bootstrap</artifactId>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${commons-lang3.version}</version>
 		</dependency>
 
-		<!-- nacos服务发现 -->
 		<dependency>
-			<groupId>com.alibaba.cloud</groupId>
-			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${log4j.version}</version>
 		</dependency>
 
-		<!--loadbalancer负载均衡器-->
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-loadbalancer</artifactId>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>${lombok.version}</version>
+			<optional>true</optional>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
 		</dependency>
 	</dependencies>
 
+	<!--
+        https://start.spring.io/actuator/info
+        cloud版本一定要和boot版本匹配
+        必须以这种方式集成cloud-->
 	<dependencyManagement>
 		<dependencies>
-			<!-- spring boot -->
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-dependencies</artifactId>
-				<version>${spring.boot.version}</version>
+				<version>${spring-boot.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
+				<exclusions>
+					<exclusion>
+						<groupId>com.squareup.okhttp3</groupId>
+						<artifactId>okhttp</artifactId>
+					</exclusion>
+				</exclusions>
 			</dependency>
-
-			<!-- spring cloud -->
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-test</artifactId>
+				<version>${spring-boot-test.version}</version>
+				<scope>test</scope>
+			</dependency>
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>${spring.cloud.version}</version>
+				<version>${spring-cloud.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
@@ -74,12 +136,23 @@
 			<dependency>
 				<groupId>com.alibaba.cloud</groupId>
 				<artifactId>spring-cloud-alibaba-dependencies</artifactId>
-				<version>${spring.cloud.alibaba.version}</version>
+				<version>${spring-cloud-alibaba.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
-
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>${spring-boot-maven-plugin.version}</version>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
