@@ -1,0 +1,12 @@
+server:
+  port: 100010
+
+spring:
+  application:
+    name: gateway-nacos-config
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yml
+        group: DEFAULT_GROUP

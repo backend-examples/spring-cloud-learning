@@ -10,7 +10,7 @@ spring:
     nacos:
       discovery:
         # nacos的服务地址，nacos-server中IP地址:端口号
-        server-addr: 192.168.159.1:8848
+        server-addr: localhost:8848
 management:
   endpoints:
     web:

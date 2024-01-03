@@ -6,9 +6,101 @@ spring:
     name: spring-cloud-gateway
   cloud:
     gateway:
+      set-status:
+        original-status-header-name: aaabbbccc
+      filter:
+        secure-headers:
+          disable:
+            - x-frame-options
+            - strict-transport-security
       discovery:
         locator:
           enabled: true
+      routes:
+        - id: request_size_route
+          uri: http://localhost:8080/upload
+          predicates:
+            - Path=/upload
+          filters:
+              - name: RequestSize
+                args:
+                  maxSize: 5000000
+        - id: retry_test
+          uri: http://localhost:8080/flakey
+          predicates:
+            - Host=*.retry.com
+          filters:
+            - name: Retry
+              args:
+                retries: 3
+                statuses: BAD_GATEWAY
+                methods: GET,POST
+                backoff:
+                  firstBackoff: 10ms
+                  maxBackoff: 50ms
+                  factor: 2
+                  basedOnPreviousValue: false
+        - id: path_route_strip_prefix
+          uri: http://localhost:9001
+          predicates:
+            - Path=/aaa/**
+          filters:
+            - StripPrefix=2
+        - id: rewritelocationresponseheader_route
+          uri: http://example.org
+          predicates:
+            - Path=/some/**
+          filters:
+            - RewriteLocationResponseHeader=AS_IN_REQUEST, Location, ,
+        - id: path_route_rewrite
+          uri: http://localhost:9001
+          predicates:
+            - Path=/test/**
+          filters:
+            - RewritePath=/test/?(?<segment>.*), /nacos/$\{segment}
+        - id: path_route_test
+          uri: http://127.1.1.1:11111
+          predicates:
+            - Path=/nacos/**
+          filters:
+            - RedirectTo=302, http://localhost:9001/nacos/test
+        - id: patch_route_predicates
+          uri: http://localhost:9001
+          predicates:
+            - Path=/test/{segment}
+          filters:
+            - SetPath=/nacos/{segment}
+            - SetRequestHeader=X-Request-Red, Blue-{segment}
+            - AddRequestHeader=x-request-foo, bar-config
+            - AddResponseHeader=foo, bar-config-response
+            - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin, RETAIN_LAST
+            - MapRequestHeader=Blue, X-Request-Red
+            - PreserveHostHeader
+            - RemoveRequestHeader=foo
+            - RemoveResponseHeader=foo
+            - RemoveRequestParameter=foo1
+            - SecureHeaders
+        - id: patch_route
+          uri: http://localhost:9001
+          predicates:
+            - Path=/**
+          filters:
+            - PrefixPath=/nacos
+            - AddRequestHeader=x-request-foo, bar-config
+            - AddResponseHeader=foo, bar-config-response
+            - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin, RETAIN_LAST
+            - MapRequestHeader=Blue, X-Request-Red
+            - PreserveHostHeader
+            - RemoveRequestHeader=foo
+            - RemoveResponseHeader=foo
+            - RemoveRequestParameter=foo1
+            - SecureHeaders
+            - SetRequestHeader=X-Request-Red, Blue
+            - SetResponseHeader=X-Request-Red, Blue
+            - SetStatus=500
+            - name: SetRequestHostHeader
+              args:
+                host: aaabbb
     nacos:
       discovery:
         server-addr: localhost:8848

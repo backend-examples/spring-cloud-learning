@@ -7,3 +7,16 @@ spring:
         server-addr: 127.0.0.1:8848
         file-extension: yml
         group: DEFAULT_GROUP
+
+server:
+  port: 10008
+
+# 暴露端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
