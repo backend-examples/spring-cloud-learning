@@ -2,17 +2,19 @@ package com.example.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpHeaders;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestHeader;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 @Slf4j
 @RestController
 @RequestMapping("/nacos")
 public class NacosController {
+
+    private String dateStr(){
+        return new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date());
+    }
 
     @GetMapping(value = "/test")
     public String test(){
@@ -24,6 +26,15 @@ public class NacosController {
         log.info("header: {}", headers);
 
         return "Hello World" + new Date();
+    }
+
+    @GetMapping(value = "/account/{id}")
+    public String account(@PathVariable("id") int id) throws InterruptedException {
+        if(1==id) {
+            Thread.sleep(500);
+        }
+
+        return "Account" + dateStr();
     }
 }
 
