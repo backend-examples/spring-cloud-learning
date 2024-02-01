@@ -11,9 +11,14 @@ spring:
           uri: http://localhost:9001
           predicates:
             - Path=/nacos/**
+#          filters:
+#            - name: CircuitBreaker
+#              args:
+#                name: myCircuitBreaker
+#            - name: CircuitBreakerStatePrinter
           filters:
             - name: CircuitBreakerStatePrinter
             - name: CircuitBreaker
               args:
                 name: myCircuitBreaker
-                fallbackUri: forward:/myfallback
+#                fallbackUri: forward:/myfallback
