@@ -36,5 +36,11 @@ public class NacosController {
 
         return "Account" + dateStr();
     }
+
+    @GetMapping("/userinfo")
+    public String userInfo(@RequestParam("username") String username) {
+        return  "hello " + username + ", " + dateStr();
+    }
+
 }
 

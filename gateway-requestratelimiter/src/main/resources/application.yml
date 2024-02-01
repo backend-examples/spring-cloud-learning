@@ -1,0 +1,27 @@
+server:
+  #服务端口
+  port: 10013
+spring:
+  application:
+    name: circuitbreaker-gateway
+  # redis配置
+  redis:
+    host: localhost
+    port: 6379
+
+  cloud:
+    gateway:
+      routes:
+        - id: path_route
+          uri: http://localhost:9001
+          predicates:
+            - Path=/nacos/**
+          filters:
+            - name: RequestRateLimiter
+              args:
+                # 令牌入桶的速度为每秒100个，相当于QPS
+                redis-rate-limiter.replenishRate: 100
+                # 桶内能装200个令牌，相当于峰值，要注意的是：第一秒从桶内能去200个，但是第二秒只能取到100个了，因为入桶速度是每秒100个
+                redis-rate-limiter.burstCapacity: 200
+                # 每个请求需要的令牌数
+                redis-rate-limiter.requestedTokens: 1

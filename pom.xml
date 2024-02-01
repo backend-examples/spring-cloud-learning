@@ -18,7 +18,8 @@
         <module>gateway-nacos-config</module>
         <module>gateway-by-code</module>
         <module>circuitbreaker-gateway</module>
-    </modules>
+		<module>gateway-requestratelimiter</module>
+	</modules>
 
 	<properties>
 		<java.version>1.8</java.version>
