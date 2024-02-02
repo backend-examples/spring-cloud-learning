@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Map;
 
 @Slf4j
 @RestController
@@ -42,5 +43,10 @@ public class NacosController {
         return  "hello " + username + ", " + dateStr();
     }
 
+    @PostMapping("/change")
+    public Map<String, Object> change(@RequestBody Map<String, Object> map) {
+        map.put("response-tag", dateStr());
+        return map;
+    }
 }
 

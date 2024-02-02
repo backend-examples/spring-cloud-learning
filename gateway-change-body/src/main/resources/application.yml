@@ -1,0 +1,13 @@
+server:
+  #服务端口
+  port: 10014
+spring:
+  application:
+    name: gateway-change-body
+  cloud:
+    gateway:
+      routes:
+        - id: path_route_str
+          uri: http://localhost:9001
+          predicates:
+            - Path=/nacos/test

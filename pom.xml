@@ -19,6 +19,7 @@
         <module>gateway-by-code</module>
         <module>circuitbreaker-gateway</module>
 		<module>gateway-requestratelimiter</module>
+		<module>gateway-change-body</module>
 	</modules>
 
 	<properties>
