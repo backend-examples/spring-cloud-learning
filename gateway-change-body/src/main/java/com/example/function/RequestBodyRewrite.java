@@ -1,9 +1,12 @@
 package com.example.function;
 
+import com.example.exception.MyGatewayException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.reactivestreams.Publisher;
 import org.springframework.cloud.gateway.filter.factory.rewrite.RewriteFunction;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
 import java.util.Map;
@@ -33,7 +36,12 @@ public class RequestBodyRewrite implements RewriteFunction<String, String> {
             Map<String, Object> map = objectMapper.readValue(body, Map.class);
 
             if (!map.containsKey("user-id")) {
-                return Mono.error(new Exception("user-id参数不存在！"));
+//                return Mono.error(new Exception("user-id参数不存在！"));
+
+                // 抛出ResponseStatusException异常
+//                return Mono.error(new ResponseStatusException(HttpStatus.BAD_REQUEST, "请求参数必须包含user-id字段！"));
+                // http返回码和MyGatewayException的注解有关
+                return Mono.error(new MyGatewayException());
             }
 
             // 取得id
