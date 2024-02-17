@@ -20,7 +20,9 @@
         <module>circuitbreaker-gateway</module>
 		<module>gateway-requestratelimiter</module>
 		<module>gateway-change-body</module>
-	</modules>
+		<module>gateway-dynamic-route</module>
+        <module>nacos-provider-test</module>
+    </modules>
 
 	<properties>
 		<java.version>1.8</java.version>
