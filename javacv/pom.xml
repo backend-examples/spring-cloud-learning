@@ -9,42 +9,37 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>nacos-provider</artifactId>
+    <artifactId>javacv</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- javacpp当前版本 -->
+        <javacpp.version>1.5.6</javacpp.version>
     </properties>
-
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-to-slf4j</artifactId>
+            <version>2.13.3</version>
         </dependency>
 
-        <!-- nacos服务发现 -->
+        <!-- javacv相关依赖，一个就够了 -->
         <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-<!--        <dependency>-->
-<!--            <groupId>com.gateway.security</groupId>-->
-<!--            <artifactId>cloud-component-security-starter</artifactId>-->
-<!--            <version>0.0.1</version>-->
-<!--        </dependency>-->
-        <dependency>
-            <groupId>com.gateway.security</groupId>
-            <artifactId>cloud-component-security-starter</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>javacv-platform</artifactId>
+            <version>${javacpp.version}</version>
         </dependency>
     </dependencies>
 

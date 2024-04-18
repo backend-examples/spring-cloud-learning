@@ -1,0 +1,27 @@
+package com.example.controller;
+
+import com.example.service.TestService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class TestController  {
+
+    @Autowired
+    TestService testService;
+
+    @GetMapping("/test")
+    public String test() throws InterruptedException {
+        testService.test();
+        System.out.println("链路流控模式限流示例");
+        return "test";
+    }
+
+    @GetMapping("/test1")
+    public String test1(){
+        testService.test();
+        System.out.println("正常链路接口");
+        return "test";
+    }
+}

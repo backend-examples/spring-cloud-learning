@@ -1,0 +1,43 @@
+server:
+  port: 10005
+
+spring:
+  application:
+    name: spring-cloud-gateway
+  cloud:
+    gateway:
+      set-status:
+        original-status-header-name: aaabbbccc
+      filter:
+        secure-headers:
+          disable:
+            - x-frame-options
+            - strict-transport-security
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: patch_route
+          uri: http://localhost:9001
+          predicates:
+            - Path=/**
+          filters:
+            - PrefixPath=/nacos
+            - AddRequestHeader=x-request-foo, bar-config
+            - AddResponseHeader=foo, bar-config-response
+            - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin, RETAIN_LAST
+            - MapRequestHeader=Blue, X-Request-Red
+            - PreserveHostHeader
+            - RemoveRequestHeader=foo
+            - RemoveResponseHeader=foo
+            - RemoveRequestParameter=foo1
+            - SecureHeaders
+            - SetRequestHeader=X-Request-Red, Blue
+            - SetResponseHeader=X-Request-Red, Blue
+            - SetStatus=500
+            - name: SetRequestHostHeader
+              args:
+                host: aaabbb
+    nacos:
+      discovery:
+        server-addr: localhost:8848

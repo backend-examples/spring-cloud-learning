@@ -9,7 +9,9 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>nacos-provider</artifactId>
+    <groupId>com.gateway.security</groupId>
+    <artifactId>cloud-component-security-starter</artifactId>
+    <version>0.0.1</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -17,34 +19,21 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- nacos服务发现 -->
         <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-<!--        <dependency>-->
-<!--            <groupId>com.gateway.security</groupId>-->
-<!--            <artifactId>cloud-component-security-starter</artifactId>-->
-<!--            <version>0.0.1</version>-->
-<!--        </dependency>-->
-        <dependency>
-            <groupId>com.gateway.security</groupId>
-            <artifactId>cloud-component-security-starter</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 

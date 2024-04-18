@@ -22,7 +22,15 @@
 		<module>gateway-change-body</module>
 		<module>gateway-dynamic-route</module>
         <module>nacos-provider-test</module>
-    </modules>
+		<module>cloud-component-security-starter</module>
+        <module>common</module>
+        <module>gateway-global-filter</module>
+        <module>video-range</module>
+        <module>javacv</module>
+        <module>log-monitor</module>
+        <module>tdengine</module>
+		<module>gateway-sentinel</module>
+	</modules>
 
 	<properties>
 		<java.version>1.8</java.version>
