@@ -1,0 +1,299 @@
+2024-04-19 16:23:54.407 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515024000&endTime=1713515030000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:23:54.413 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515024000&endTime=1713515030000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 7 ms
+2024-04-19 16:24:01.407 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515031000&endTime=1713515037000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:24:01.410 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515031000&endTime=1713515037000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:24:08.408 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515038000&endTime=1713515044000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:24:08.410 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515038000&endTime=1713515044000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:24:15.406 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515045000&endTime=1713515051000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:24:15.409 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515045000&endTime=1713515051000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:24:22.407 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515052000&endTime=1713515058000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:24:22.409 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515052000&endTime=1713515058000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:24:27.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515059000&endTime=1713515065000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:24:27.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515059000&endTime=1713515065000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:24:34.352 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515066000&endTime=1713515072000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:24:34.370 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515066000&endTime=1713515072000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 20 ms
+2024-04-19 16:24:41.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515073000&endTime=1713515079000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:24:41.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515073000&endTime=1713515079000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:24:48.352 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515080000&endTime=1713515086000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:24:48.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515080000&endTime=1713515086000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:24:55.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515087000&endTime=1713515093000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:24:55.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515087000&endTime=1713515093000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:25:02.352 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515094000&endTime=1713515100000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:25:02.355 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515094000&endTime=1713515100000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:25:09.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515101000&endTime=1713515107000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:25:09.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515101000&endTime=1713515107000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:25:16.352 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515108000&endTime=1713515114000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:25:16.356 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515108000&endTime=1713515114000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:25:23.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515115000&endTime=1713515121000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:25:23.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515115000&endTime=1713515121000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:25:30.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515122000&endTime=1713515128000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:25:30.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515122000&endTime=1713515128000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:25:37.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515129000&endTime=1713515135000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:25:37.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515129000&endTime=1713515135000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:25:44.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515136000&endTime=1713515142000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:25:44.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515136000&endTime=1713515142000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:25:51.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515143000&endTime=1713515149000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:25:51.355 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515143000&endTime=1713515149000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:25:58.353 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515150000&endTime=1713515156000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:25:58.358 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515150000&endTime=1713515156000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 5 ms
+2024-04-19 16:26:05.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515157000&endTime=1713515163000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:26:05.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515157000&endTime=1713515163000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:26:12.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515164000&endTime=1713515170000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:26:12.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515164000&endTime=1713515170000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:26:19.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515171000&endTime=1713515177000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:26:19.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515171000&endTime=1713515177000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:26:26.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515178000&endTime=1713515184000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:26:26.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515178000&endTime=1713515184000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:26:33.352 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515185000&endTime=1713515191000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:26:33.356 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515185000&endTime=1713515191000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:26:40.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515192000&endTime=1713515198000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:26:40.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515192000&endTime=1713515198000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:26:40.787 INFO [SimpleHttpCommandCenter] Socket income: GET /getClusterMode HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:26:40.803 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /getClusterMode HTTP/1.1, address: /192.168.0.102, time cost: 17 ms
+2024-04-19 16:26:40.809 INFO [SimpleHttpCommandCenter] Socket income: GET /cluster/client/fetchConfig HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:26:40.811 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /cluster/client/fetchConfig HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:26:40.815 INFO [SimpleHttpCommandCenter] Socket income: GET /cluster/server/info HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:26:40.829 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /cluster/server/info HTTP/1.1, address: /192.168.0.102, time cost: 14 ms
+2024-04-19 16:26:47.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515199000&endTime=1713515205000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:26:47.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515199000&endTime=1713515205000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:26:49.379 INFO [SimpleHttpCommandCenter] Socket income: GET /getClusterMode HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:26:49.379 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /getClusterMode HTTP/1.1, address: /192.168.0.102, time cost: 0 ms
+2024-04-19 16:26:49.385 INFO [SimpleHttpCommandCenter] Socket income: GET /cluster/client/fetchConfig HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:26:49.385 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /cluster/client/fetchConfig HTTP/1.1, address: /192.168.0.102, time cost: 1 ms
+2024-04-19 16:26:49.389 INFO [SimpleHttpCommandCenter] Socket income: GET /cluster/server/info HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:26:49.390 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /cluster/server/info HTTP/1.1, address: /192.168.0.102, time cost: 1 ms
+2024-04-19 16:26:54.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515206000&endTime=1713515212000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:26:54.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515206000&endTime=1713515212000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:27:01.359 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515213000&endTime=1713515219000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:27:01.361 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515213000&endTime=1713515219000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:27:08.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515220000&endTime=1713515226000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:27:08.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515220000&endTime=1713515226000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 5 ms
+2024-04-19 16:27:15.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515227000&endTime=1713515233000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:27:15.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515227000&endTime=1713515233000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:27:22.352 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515234000&endTime=1713515240000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:27:22.355 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515234000&endTime=1713515240000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 5 ms
+2024-04-19 16:27:29.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515241000&endTime=1713515247000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:27:29.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515241000&endTime=1713515247000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:27:36.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515248000&endTime=1713515254000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:27:36.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515248000&endTime=1713515254000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:27:43.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515255000&endTime=1713515261000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:27:43.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515255000&endTime=1713515261000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:27:50.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515262000&endTime=1713515268000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:27:50.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515262000&endTime=1713515268000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:27:57.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515269000&endTime=1713515275000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:27:57.356 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515269000&endTime=1713515275000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 5 ms
+2024-04-19 16:28:04.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515276000&endTime=1713515282000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:28:04.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515276000&endTime=1713515282000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:28:11.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515283000&endTime=1713515289000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:28:11.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515283000&endTime=1713515289000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:28:18.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515290000&endTime=1713515296000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:28:18.355 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515290000&endTime=1713515296000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:28:25.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515297000&endTime=1713515303000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:28:25.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515297000&endTime=1713515303000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:28:32.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515304000&endTime=1713515310000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:28:32.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515304000&endTime=1713515310000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:28:39.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515311000&endTime=1713515317000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:28:39.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515311000&endTime=1713515317000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:28:46.349 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515318000&endTime=1713515324000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:28:46.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515318000&endTime=1713515324000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 5 ms
+2024-04-19 16:28:53.352 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515325000&endTime=1713515331000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:28:53.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515325000&endTime=1713515331000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:29:00.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515332000&endTime=1713515338000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:29:00.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515332000&endTime=1713515338000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:29:07.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515339000&endTime=1713515345000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:29:07.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515339000&endTime=1713515345000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:29:14.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515346000&endTime=1713515352000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:29:14.356 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515346000&endTime=1713515352000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 6 ms
+2024-04-19 16:29:21.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515353000&endTime=1713515359000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:29:21.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515353000&endTime=1713515359000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:29:28.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515360000&endTime=1713515366000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:29:28.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515360000&endTime=1713515366000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:29:35.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515367000&endTime=1713515373000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:29:35.356 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515367000&endTime=1713515373000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 5 ms
+2024-04-19 16:29:42.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515374000&endTime=1713515380000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:29:42.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515374000&endTime=1713515380000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:29:49.352 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515381000&endTime=1713515387000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:29:49.355 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515381000&endTime=1713515387000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:29:56.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515388000&endTime=1713515394000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:29:56.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515388000&endTime=1713515394000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:30:03.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515395000&endTime=1713515401000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:30:03.357 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515395000&endTime=1713515401000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 6 ms
+2024-04-19 16:30:10.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515402000&endTime=1713515408000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:30:10.356 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515402000&endTime=1713515408000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 5 ms
+2024-04-19 16:30:17.352 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515409000&endTime=1713515415000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:30:17.356 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515409000&endTime=1713515415000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:30:24.353 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515416000&endTime=1713515422000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:30:24.356 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515416000&endTime=1713515422000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:30:31.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515423000&endTime=1713515429000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:30:31.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515423000&endTime=1713515429000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:30:38.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515430000&endTime=1713515436000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:30:38.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515430000&endTime=1713515436000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:30:45.352 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515437000&endTime=1713515443000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:30:45.357 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515437000&endTime=1713515443000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 5 ms
+2024-04-19 16:30:52.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515444000&endTime=1713515450000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:30:52.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515444000&endTime=1713515450000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:30:59.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515451000&endTime=1713515457000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:30:59.355 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515451000&endTime=1713515457000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:31:06.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515458000&endTime=1713515464000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:31:06.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515458000&endTime=1713515464000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:31:13.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515465000&endTime=1713515471000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:31:13.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515465000&endTime=1713515471000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:31:20.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515472000&endTime=1713515478000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:31:20.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515472000&endTime=1713515478000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:31:27.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515479000&endTime=1713515485000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:31:27.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515479000&endTime=1713515485000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:31:34.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515486000&endTime=1713515492000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:31:34.357 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515486000&endTime=1713515492000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 6 ms
+2024-04-19 16:31:41.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515493000&endTime=1713515499000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:31:41.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515493000&endTime=1713515499000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:31:48.352 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515500000&endTime=1713515506000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:31:48.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515500000&endTime=1713515506000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:31:55.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515507000&endTime=1713515513000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:31:55.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515507000&endTime=1713515513000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:32:02.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515514000&endTime=1713515520000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:32:02.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515514000&endTime=1713515520000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:32:09.354 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515521000&endTime=1713515527000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:32:09.358 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515521000&endTime=1713515527000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:32:16.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515528000&endTime=1713515534000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:32:16.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515528000&endTime=1713515534000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:32:23.352 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515535000&endTime=1713515541000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:32:23.355 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515535000&endTime=1713515541000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:32:30.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515542000&endTime=1713515548000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:32:30.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515542000&endTime=1713515548000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:32:37.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515549000&endTime=1713515555000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:32:37.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515549000&endTime=1713515555000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:32:44.352 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515556000&endTime=1713515562000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:32:44.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515556000&endTime=1713515562000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:32:51.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515563000&endTime=1713515569000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:32:51.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515563000&endTime=1713515569000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:32:58.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515570000&endTime=1713515576000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:32:58.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515570000&endTime=1713515576000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:33:05.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515577000&endTime=1713515583000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:33:05.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515577000&endTime=1713515583000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:33:12.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515584000&endTime=1713515590000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:33:12.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515584000&endTime=1713515590000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:33:19.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515591000&endTime=1713515597000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:33:19.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515591000&endTime=1713515597000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:33:26.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515598000&endTime=1713515604000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:33:26.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515598000&endTime=1713515604000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:33:33.352 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515605000&endTime=1713515611000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:33:33.355 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515605000&endTime=1713515611000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:33:40.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515612000&endTime=1713515618000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:33:40.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515612000&endTime=1713515618000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:33:47.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515619000&endTime=1713515625000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:33:47.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515619000&endTime=1713515625000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:33:54.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515626000&endTime=1713515632000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:33:54.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515626000&endTime=1713515632000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:34:01.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515633000&endTime=1713515639000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:34:01.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515633000&endTime=1713515639000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:34:08.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515640000&endTime=1713515646000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:34:08.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515640000&endTime=1713515646000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:34:15.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515647000&endTime=1713515653000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:34:15.355 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515647000&endTime=1713515653000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 5 ms
+2024-04-19 16:34:22.352 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515654000&endTime=1713515660000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:34:22.356 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515654000&endTime=1713515660000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:34:29.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515661000&endTime=1713515667000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:34:29.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515661000&endTime=1713515667000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:34:36.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515668000&endTime=1713515674000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:34:36.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515668000&endTime=1713515674000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:34:43.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515675000&endTime=1713515681000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:34:43.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515675000&endTime=1713515681000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:34:50.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515682000&endTime=1713515688000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:34:50.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515682000&endTime=1713515688000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:34:57.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515689000&endTime=1713515695000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:34:57.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515689000&endTime=1713515695000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:35:04.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515696000&endTime=1713515702000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:35:04.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515696000&endTime=1713515702000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:35:11.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515703000&endTime=1713515709000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:35:11.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515703000&endTime=1713515709000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:35:18.352 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515710000&endTime=1713515716000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:35:18.355 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515710000&endTime=1713515716000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:35:25.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515717000&endTime=1713515723000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:35:25.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515717000&endTime=1713515723000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:35:32.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515724000&endTime=1713515730000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:35:32.355 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515724000&endTime=1713515730000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:35:39.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515731000&endTime=1713515737000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:35:39.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515731000&endTime=1713515737000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:35:46.353 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515738000&endTime=1713515744000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:35:46.357 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515738000&endTime=1713515744000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 5 ms
+2024-04-19 16:35:53.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515745000&endTime=1713515751000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:35:53.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515745000&endTime=1713515751000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:36:00.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515752000&endTime=1713515758000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:36:00.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515752000&endTime=1713515758000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:36:07.354 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515759000&endTime=1713515765000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:36:07.357 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515759000&endTime=1713515765000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:36:14.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515766000&endTime=1713515772000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:36:14.355 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515766000&endTime=1713515772000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:36:21.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515773000&endTime=1713515779000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:36:21.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515773000&endTime=1713515779000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:36:28.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515780000&endTime=1713515786000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:36:28.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515780000&endTime=1713515786000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:36:35.352 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515787000&endTime=1713515793000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:36:35.357 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515787000&endTime=1713515793000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 5 ms
+2024-04-19 16:36:42.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515794000&endTime=1713515800000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:36:42.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515794000&endTime=1713515800000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:36:49.352 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515801000&endTime=1713515807000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:36:49.355 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515801000&endTime=1713515807000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:36:56.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515808000&endTime=1713515814000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:36:56.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515808000&endTime=1713515814000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:37:03.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515815000&endTime=1713515821000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:37:03.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515815000&endTime=1713515821000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:37:10.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515822000&endTime=1713515828000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:37:10.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515822000&endTime=1713515828000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:37:17.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515829000&endTime=1713515835000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:37:17.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515829000&endTime=1713515835000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:37:24.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515836000&endTime=1713515842000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:37:24.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515836000&endTime=1713515842000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:37:31.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515843000&endTime=1713515849000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:37:31.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515843000&endTime=1713515849000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:37:38.352 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515850000&endTime=1713515856000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:37:38.355 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515850000&endTime=1713515856000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:37:45.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515857000&endTime=1713515863000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:37:45.355 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515857000&endTime=1713515863000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:37:52.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515864000&endTime=1713515870000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:37:52.357 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515864000&endTime=1713515870000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 6 ms
+2024-04-19 16:37:59.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515871000&endTime=1713515877000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:37:59.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515871000&endTime=1713515877000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:38:06.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515878000&endTime=1713515884000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:38:06.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515878000&endTime=1713515884000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:38:13.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515885000&endTime=1713515891000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:38:13.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515885000&endTime=1713515891000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:38:39.177 INFO [CommandCenter] Begin listening at port 8719
+2024-04-19 16:38:41.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515913000&endTime=1713515919000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:38:41.356 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515913000&endTime=1713515919000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 5 ms
+2024-04-19 16:38:41.369 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515906000&endTime=1713515912000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:38:41.370 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515906000&endTime=1713515912000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 1 ms
+2024-04-19 16:38:42.377 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515899000&endTime=1713515905000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:38:42.377 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515899000&endTime=1713515905000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 1 ms
+2024-04-19 16:38:44.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515909000&endTime=1713515915000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:38:44.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515909000&endTime=1713515915000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:38:45.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515916000&endTime=1713515922000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:38:45.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515916000&endTime=1713515922000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:38:48.353 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515920000&endTime=1713515926000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:38:48.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515920000&endTime=1713515926000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:38:51.353 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515923000&endTime=1713515929000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:38:51.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515923000&endTime=1713515929000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 3 ms
+2024-04-19 16:38:51.436 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515892000&endTime=1713515898000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:38:51.438 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515892000&endTime=1713515898000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 4 ms
+2024-04-19 16:38:55.353 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515927000&endTime=1713515933000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:38:55.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515927000&endTime=1713515933000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:38:58.352 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515930000&endTime=1713515936000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:38:58.353 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515930000&endTime=1713515936000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:39:02.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515934000&endTime=1713515940000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:39:02.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515934000&endTime=1713515940000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 1 ms
+2024-04-19 16:39:05.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515937000&endTime=1713515943000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:39:05.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515937000&endTime=1713515943000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 1 ms
+2024-04-19 16:39:09.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515941000&endTime=1713515947000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:39:09.351 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515941000&endTime=1713515947000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 1 ms
+2024-04-19 16:39:12.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515944000&endTime=1713515950000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:39:12.351 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515944000&endTime=1713515950000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 1 ms
+2024-04-19 16:39:19.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515951000&endTime=1713515957000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:39:19.351 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515951000&endTime=1713515957000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 0 ms
+2024-04-19 16:39:26.353 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515958000&endTime=1713515964000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:39:26.354 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515958000&endTime=1713515964000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 1 ms
+2024-04-19 16:39:33.349 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515965000&endTime=1713515971000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:39:33.350 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515965000&endTime=1713515971000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 1 ms
+2024-04-19 16:39:40.350 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515972000&endTime=1713515978000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:39:40.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515972000&endTime=1713515978000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 2 ms
+2024-04-19 16:39:47.351 INFO [SimpleHttpCommandCenter] Socket income: GET /metric?startTime=1713515979000&endTime=1713515985000&refetch=false HTTP/1.1, addr: /192.168.0.102
+2024-04-19 16:39:47.352 INFO [SimpleHttpCommandCenter] Deal a socket task: GET /metric?startTime=1713515979000&endTime=1713515985000&refetch=false HTTP/1.1, address: /192.168.0.102, time cost: 1 ms

@@ -1,0 +1,22 @@
+2024-04-13 02:31:00.742 WARNING missed file rolling at: Sun Apr 14 00:00:00 CST 2024
+[SimpleHttpHeartbeatSender] Failed to send heartbeat to Endpoint{protocol=HTTP, host='192.168.0.102, port=8080}
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.alibaba.csp.sentinel.transport.heartbeat.client.SimpleHttpClient.request(SimpleHttpClient.java:98)
+	at com.alibaba.csp.sentinel.transport.heartbeat.client.SimpleHttpClient.post(SimpleHttpClient.java:82)
+	at com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender.sendHeartbeat(SimpleHttpHeartbeatSender.java:74)
+	at com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc$1.run(HeartbeatSenderInitFunc.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
