@@ -9,7 +9,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>gateway-sentinel</artifactId>
+    <artifactId>nacos-sentinel</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

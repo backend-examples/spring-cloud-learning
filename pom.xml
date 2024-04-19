@@ -29,7 +29,7 @@
         <module>javacv</module>
         <module>log-monitor</module>
         <module>tdengine</module>
-		<module>gateway-sentinel</module>
+		<module>nacos-sentinel</module>
 	</modules>
 
 	<properties>
